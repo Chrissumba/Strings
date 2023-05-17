@@ -12,6 +12,12 @@ function isPalindrome(str) {
 
     return true; // All characters match, it's a palindrome
 }
+const inputString = "madam";
+if (isPalindrome(inputString)) {
+    console.log(`${inputString} is a palindrome.`);
+} else {
+    console.log(`${inputString} is not a palindrome.`);
+}
 
 
 // 2. anagram.
